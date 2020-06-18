@@ -1,0 +1,6 @@
+language: bash
+
+dist: bionic
+
+script:
+  - curl -d "" https://hub.docker.com/api/build/v1/source/9d89a5ed-d347-4197-bebf-58dfebca2852/trigger/34e59aa3-835e-4264-b363-9848252f989e/call/
